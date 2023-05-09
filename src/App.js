@@ -7,8 +7,13 @@ function App() {
         <div className="inner-app-container">
           <div className="app-left">
             <form>
-              <label>Your City</label>
-              <input type="text" name="city" placeholder="London" />
+              <label className="lbl-city">Your City</label>
+              <input
+                type="text"
+                className="inp-city"
+                name="city"
+                placeholder="London"
+              />
             </form>
           </div>
           <div className="app-right"></div>
