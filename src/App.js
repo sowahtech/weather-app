@@ -6,7 +6,7 @@ function App() {
       <div className="app-left">
         <form>
           <label>Your City</label>
-          <input type="submit" value="submit" placeholder="London" />
+          <input type="text" name="city" placeholder="London" />
         </form>
       </div>
       <div className="app-right"></div>
